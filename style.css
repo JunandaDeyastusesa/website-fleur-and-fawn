@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Libre+Caslon+Display&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-size: 60px;
+    color: #5E2E2E;
+    /* Warna teks */
+    -webkit-text-stroke: 1px #5E2E2E;
+    /* Outline hitam dengan ketebalan 2px */
+}
+
+p {
+    font-family: "Libre Bodoni", serif;
+    color: #AA7A7A;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+
+nav {
+    font-family: "Gwendolyn", cursive;
+    font-size: 24px;
+    color: #906161;
+    -webkit-text-stroke: 0.3px #906161;
+
+    .container {
+        .navbar-brand {
+            img {
+                max-width: 90px;
+            }
+        }
+    }
+
+    .active {
+        color: #5E2E2E;
+        -webkit-text-stroke: 0.9px #5E2E2E;
+    }
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+
+    .icon-all {
+        width: 80px;
+        position: absolute;
+    }
+
+    .icon-1 {
+        z-index: 9999;
+        width: 65px;
+        top: 17%;
+        left: 30px;
+    }
+
+    .icon-2 {
+        z-index: 9999;
+        width: 95px;
+        top: 10%;
+        left: 29%;
+    }
+
+    .icon-3 {
+        width: 130px;
+        bottom: 3%;
+        bottom: 0;
+    }
+
+    .icon-4 {
+        z-index: 9999;
+        width: 130px;
+        bottom: 11%;
+        left: 28%;
+        /* bottom: 0; */
+    }
+
+    .icon-5 {
+        z-index: 9999;
+        width: 120px;
+        margin-bottom: 3%;
+        transform: scaleX(-1);
+        bottom: 0;
+        right: 0;
+    }
+
+    .hero-video {
+        position: absolute;
+        /* atau absolute */
+
+        width: 70%;
+        z-index: 2;
+        margin-top: 90px;
+        right: 0;
+        /* z-index lebih kecil */
+        /* transform: translateX(12.5%); */
+    }
+
+    .hero-video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Pastikan memenuhi lebar elemen .hero */
+        height: 100%;
+        /* Pastikan memenuhi tinggi elemen .hero */
+        object-fit: cover;
+        /* Memastikan video mengisi area tanpa distorsi */
+        z-index: -1;
+        /* Video di belakang konten */
+    }
+
+    .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.678);
+        /* Warna hitam dengan transparansi */
+        z-index: -1;
+        /* Pastikan di atas video */
+    }
+
+
+    .row {
+        .col-md-3 {
+            h1 {
+                font-family: "Gwendolyn", cursive;
+                font-weight: 700;
+                font-size: 60px;
+                color: #5E2E2E;
+                /* Warna teks */
+                -webkit-text-stroke: 1px #5E2E2E;
+                /* Outline hitam dengan ketebalan 2px */
+                line-height: -1000px;
+            }
+
+            .btm {
+                margin-top: -20px;
+            }
+
+            p {
+                font-family: "Libre Bodoni", serif;
+                color: #AA7A7A;
+                font-size: 18px;
+                margin-bottom: 90px;
+            }
+
+            .btn-read {
+                padding-top: 150px;
+                background-color: #906161;
+                font-family: "Lobster Two", sans-serif;
+                font-size: 18px;
+                font-weight: 500;
+                color: #fff;
+            }
+
+            .btn-read:hover {
+                background-color: #744c4c;
+            }
+
+        }
+    }
+
+    @media (max-width: 768px) {
+        .row {
+            .col-md-3 {
+                h1 {
+                    font-family: "Gwendolyn", cursive;
+                    font-weight: 700;
+                    font-size: 60px;
+                    color: #ffffff;
+                    /* Warna teks */
+                    -webkit-text-stroke: 1px #ffffff;
+                    /* Outline hitam dengan ketebalan 2px */
+                    line-height: -1000px;
+                }
+
+                .btm {
+                    margin-top: -20px;
+                }
+
+                p {
+                    font-family: "Libre Bodoni", serif;
+                    color: #bebebe;
+                    font-size: 18px;
+                    margin-bottom: 90px;
+                }
+
+                .btn-read {
+                    padding-top: 150px;
+                    background-color: #DDADAD;
+                    font-family: "Lobster Two", sans-serif;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #361515;
+                }
+
+                .btn-read:hover {
+                    background-color: #744c4c;
+                }
+
+            }
+        }
+    }
+
+    /* background-color: aqua; */
+}
+
+
+/* ABOUT US */
+.about-us {
+    background-image: linear-gradient(to bottom,
+            #ecd2d100 0%,
+            #ECD2D1 12%,
+            #ECD2D1 100%);
+
+    .container {
+        padding-top: 100px;
+    }
+}
+
+.section-separator {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    margin-top: 120px;
+    z-index: 1000;
+}
+
+/* FOOTER */
+.footer {
+    position: relative;
+
+    .footer-top {
+        background-color: #5E2E2E;
+    }
+
+    .icon-footer {
+        position: absolute;
+        width: 130px;
+        right: 0;
+        transform: scaleX(-1);
+        bottom: 0;
+        margin-bottom: 60px;
+    }
+
+    .footer-btm {
+        background-color: #361515;
+    }
+}
+
+
+
+
+.out-team {
+
+    .swiper-wrapper {
+        width: 100%;
+        height: 35em;
+        display: flex;
+        align-items: center;
+    }
+
+    .card {
+        width: 20em;
+        height: 85%;
+        background-color: #ECD2D1;
+        border-radius: 20px;
+        padding: 2em 1em;
+        /* box-shadow: 0 0 40px #00000067;  */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 30px;
+        border: 0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card_image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .card_content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card_title {
+        font-size: 1.5em;
+        font-weight: 500;
+        position: relative;
+        top: 0.2em;
+    }
+
+    .card_name {
+        color: #9176ff;
+    }
+
+    /* Tambahkan efek khusus untuk slide aktif */
+    .swiper-slide-active .card {
+        transform: scale(1.1);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Nonaktifkan bayangan pada slide yang tidak aktif */
+    .swiper-slide:not(.swiper-slide-active) .card {
+        box-shadow: none;
+        transform: scale(1);
+        filter: grayscale(50%);
+    }
+
+    .row {
+        .card {
+            background-color: #ECD2D1;
+            border: 0;
+            border-radius: 20px;
+
+            .card-body {
+                background-color: #AA7A7A;
+            }
+        }
+    }
+}
+
+
+/* ======================================================== */
+.shop {
+    h1 {
+        font-family: "Gwendolyn", cursive;
+        font-weight: 700;
+        font-size: 60px;
+        color: #5E2E2E;
+        /* Warna teks */
+        -webkit-text-stroke: 1px #5E2E2E;
+        /* Outline hitam dengan ketebalan 2px */
+    }
+
+    p {
+        font-family: "Libre Bodoni", serif;
+        color: #AA7A7A;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+
+    .hero-shop {
+        /* margin-top: 200px; */
+        height: 220px;
+        background-image: url(assets/ikon/bg-top.png);
+        /* background-color: #DDADAD; */
+    }
+
+
+
+    .card-shop {
+        .container {
+            margin-top: 30px;
+            margin-bottom: 100px;
+        }
+
+        .card {
+
+            /* height: 340px; */
+            .card-title {
+                color: #906161;
+                font-family: "Lobster Two", sans-serif;
+                font-size: 24px;
+            }
+
+            .card-text {
+                color: #5E2E2E;
+                font-family: "Lobster Two", sans-serif;
+                font-weight: 800;
+                font-size: 26px;
+            }
+
+            .img-card-shop {
+                position: relative;
+                background-color: #FBE2E1;
+                overflow: hidden;
+                border-radius: 20px;
+
+                img {
+                    width: 100%;
+                    transition: opacity 0.3s ease;
+                }
+            }
+        }
+
+        a .hover-image,
+        a .main-image-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            opacity: 0;
+        }
+
+        a:hover .hover-image {
+            opacity: 1;
+            height: 100%;
+        }
+
+        a:hover .main-image-back {
+            opacity: 1;
+            height: 100%;
+        }
+
+        a:hover .main-image {
+            opacity: 0;
+        }
+    }
+
+}
+
+/* ======================================================== */
+.shop-details {
+    h1 {
+        font-family: "Gwendolyn", cursive;
+        font-weight: 700;
+        font-size: 60px;
+        color: #5E2E2E;
+        /* Warna teks */
+        -webkit-text-stroke: 1px #5E2E2E;
+        /* Outline hitam dengan ketebalan 2px */
+    }
+
+    p {
+        font-family: "Libre Bodoni", serif;
+        color: #AA7A7A;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+
+    .hero-shop {
+        /* margin-top: 200px; */
+        height: 220px;
+        /* background-color: #DDADAD; */
+        background-image: url(assets/ikon/bg-top.png);
+    }
+
+    .card-shop {
+        .container {
+            margin-top: 30px;
+            margin-bottom: 100px;
+        }
+
+        .left {
+            background-color: #FBE2E1;
+            border-radius: 20px;
+
+            img {
+                width: 100%;
+            }
+
+            .img-back {
+                display: none;
+            }
+        }
+
+        .left:hover .img-front {
+            background-color: #361515;
+            display: none;
+        }
+
+        .left:hover .img-back {
+            display: block;
+        }
+
+        h1 {
+            font-family: "Lobster Two", sans-serif;
+            font-size: 36px;
+            font-weight: 100;
+            color: #906161;
+        }
+
+        p {
+            font-family: "Lobster Two", sans-serif;
+            font-size: 20px;
+            color: #AB8D8D;
+        }
+
+        .price {
+            h1 {
+                font-size: 46px;
+                color: #5E2E2E;
+            }
+
+            .btn-buy {
+                background-color: #906161;
+                color: #fff;
+                font-family: "Lobster Two", sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                border-radius: 10px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+
+            .btn-buy:hover {
+                background-color: #744c4c;
+                border-radius: 10px;
+            }
+        }
+
+    }
+}
+
+.contact-us {
+    h1 {
+        font-family: "Gwendolyn", cursive;
+        font-weight: 700;
+        font-size: 60px;
+        color: #5E2E2E;
+        /* Warna teks */
+        -webkit-text-stroke: 1px #5E2E2E;
+        /* Outline hitam dengan ketebalan 2px */
+    }
+
+    p {
+        font-family: "Libre Bodoni", serif;
+        color: #AA7A7A;
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+
+    .hero-contact-us {
+        /* margin-top: 200px; */
+        height: 220px;
+        background-image: url(assets/ikon/bg-top.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .card-contact-us {
+        .container {
+            margin-top: 30px;
+            margin-bottom: 100px;
+        }
+
+        .left {
+            position: relative;
+            background-color: #5E2E2E;
+            border-radius: 20px;
+            height: 500px;
+
+            .icon-1 {
+                position: absolute;
+                width: 100px;
+                bottom: 0;
+            }
+
+            .icon-2 {
+                position: absolute;
+                /* Posisi absolut relatif ke parent (.left) */
+                width: 160px;
+                /* top: 0; Menempel di atas */
+                right: 0;
+                /* Menempel di kanan */
+                bottom: 0;
+            }
+
+        }
+
+        h2 {
+            color: #fff;
+            font-family: "Lobster Two", sans-serif;
+            font-size: 38px;
+            padding-top: 60px;
+        }
+
+        p {
+            font-family: "Libre Caslon Display", serif;
+            padding-top: 16px;
+            font-size: 18px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #FFE8E8;
+        }
+
+        .list-unstyled {
+            padding-top: 50px;
+
+            /* padding-bottom: 90px; */
+            a {
+                font-family: "Libre Bodoni", serif;
+                color: #fff;
+
+                i {
+                    padding-bottom: 40px;
+                }
+            }
+        }
+    }
+
+    .form-contact-us {
+        .col-md-6 {
+            padding-bottom: 30px;
+        }
+
+        .form-label {
+            font-family: "Libre Bodoni", serif;
+            color: #5E2E2E;
+        }
+
+        input,
+        textarea {
+            border: #5E2E2E 1px solid;
+            padding: 12px;
+            border-radius: 12px;
+        }
+
+        .btn-send {
+            background-color: #906161;
+            color: #fff;
+            border: 0px;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+    }
+}
