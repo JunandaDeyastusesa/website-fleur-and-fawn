@@ -277,6 +277,13 @@ nav {
         height: 35em;
         display: flex;
         align-items: center;
+
+        .swiper-slide .card_title {
+            font-family: "Libre Bodoni", serif;
+            color: #5E2E2E;
+            font-weight: 700;
+            font-size: 20px;
+        }
     }
 
     .card {
@@ -369,6 +376,8 @@ nav {
         /* margin-top: 200px; */
         height: 220px;
         background-image: url(assets/ikon/bg-top.png);
+        background-size: cover;
+        background-repeat: no-repeat;
         /* background-color: #DDADAD; */
     }
 
@@ -528,10 +537,12 @@ nav {
 
     }
 }
-iframe{
+
+iframe {
     width: 100vh;
     height: 100vh;
 }
+
 .contact-us {
     h1 {
         font-family: "Gwendolyn", cursive;
