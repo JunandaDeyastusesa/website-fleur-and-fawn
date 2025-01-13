@@ -467,8 +467,10 @@ nav {
     .hero-shop {
         /* margin-top: 200px; */
         height: 220px;
-        /* background-color: #DDADAD; */
         background-image: url(assets/ikon/bg-top.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-color: #DDADAD; */
     }
 
     .card-shop {
