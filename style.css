@@ -325,6 +325,7 @@ nav {
     .card_name {
         color: #242424;
         font-family: "Chewy", serif;
+        color: #fff;
     }
 
     /* Tambahkan efek khusus untuk slide aktif */
