@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Libre+Caslon+Display&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
 
 * {
@@ -158,7 +159,6 @@ nav {
                 font-family: "Libre Bodoni", serif;
                 color: #AA7A7A;
                 font-size: 18px;
-                margin-bottom: 90px;
             }
 
             .btn-read {
@@ -330,7 +330,14 @@ nav {
     }
 
     .card_name {
+<<<<<<< HEAD
         color: #8b3e3e;
+=======
+        color: #242424;
+        font-family: "Chewy", serif;
+        color: #8b3e3e;
+        font-size: 16px;
+>>>>>>> 9c6e964417c21b7ebac5073d005464788a9667e5
     }
 
     /* Tambahkan efek khusus untuk slide aktif */
