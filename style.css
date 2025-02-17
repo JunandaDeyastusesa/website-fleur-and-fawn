@@ -10,7 +10,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden;
 
 }
@@ -180,9 +181,11 @@ nav {
 
         }
     }
-    .card{
+
+    .card {
         border-radius: 35px 0px 0px 0px;
-        .card-title{
+
+        .card-title {
             color: #8b3e3e;
             font-size: 24px;
             font-weight: 700;
@@ -404,6 +407,15 @@ nav {
             margin-bottom: 100px;
         }
 
+        .sub-title {
+            font-family: "Gwendolyn", cursive;
+            font-weight: 700;
+            font-size: 50px;
+            color: #744c4c;
+            /* Warna teks */
+            -webkit-text-stroke: 1.5px #744c4c;
+        }
+
         .card {
 
             /* height: 340px; */
@@ -492,6 +504,75 @@ nav {
         .container {
             margin-top: 30px;
             margin-bottom: 100px;
+        }
+
+        .modal {
+            .modal-title {
+                color: #5E2E2E;
+            }
+
+            .modal-content {
+                border-radius: 30px;
+            }
+
+            .toggle-btn {
+                border-color: #8b3e3e;
+                border-radius: 10px;
+                font-weight: 600;
+                color: #8b3e3e;
+            }
+
+            .toggle-btn.active {
+                background-color: #DDADAD;
+                /* Primary color when active */
+                border-radius: 10px;
+                font-weight: 600;
+                color: #361515;
+                border-color: #DDADAD;
+                /* Border matches background when active */
+            }
+
+            .toggle-btn:hover {
+                background-color: #DDADAD;
+                /* Primary color when active */
+                border-radius: 10px;
+                font-weight: 600;
+                color: #361515;
+                border-color: #DDADAD;
+                /* Border matches background when active */
+            }
+
+            .toggle-btn:disabled {
+                opacity: 0.6;
+                cursor: not-allowed;
+                border-color: #8b3e3e;
+                background-color: transparent;
+                border-radius: 10px;
+                font-weight: 600;
+                color: #8b3e3e;
+            }
+
+            p {
+                margin-top: 13px;
+                color: #8b3e3e;
+            }
+
+            .btn-buy {
+                background-color: #906161;
+                color: #fff;
+                font-family: "Lobster Two", sans-serif;
+                font-weight: 400;
+                font-size: 20px;
+                border-radius: 10px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+
+            .btn-buy:hover {
+                background-color: #744c4c;
+                border-radius: 10px;
+            }
+
         }
 
         .left {
