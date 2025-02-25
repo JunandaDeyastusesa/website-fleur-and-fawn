@@ -173,6 +173,7 @@ nav {
                 font-size: 18px;
                 font-weight: 500;
                 color: #fff;
+                transition: 0.3s ease-in-out
             }
 
             .btn-read:hover {
@@ -526,6 +527,7 @@ nav {
                 border-radius: 10px;
                 font-weight: 600;
                 color: #8b3e3e;
+                transition: 0.4s ease-in-out;
             }
 
             .toggle-btn.active {
@@ -572,6 +574,7 @@ nav {
                 border-radius: 10px;
                 padding-left: 40px;
                 padding-right: 40px;
+                transition: 0.3s ease-in-out;
             }
 
             .btn-buy:hover {
@@ -631,6 +634,7 @@ nav {
                 border-radius: 10px;
                 padding-left: 40px;
                 padding-right: 40px;
+                transition: 0.3s ease-in-out;
             }
 
             .btn-buy:hover {
@@ -754,6 +758,14 @@ iframe {
 
         .btn-send {
             background-color: #906161;
+            color: #fff;
+            border: 0px;
+            padding: 10px 30px;
+            border-radius: 10px;
+            transition: 0.3s ease-in-out;
+        }
+        .btn-send:hover {
+            background-color: #744c4c;
             color: #fff;
             border: 0px;
             padding: 10px 30px;
