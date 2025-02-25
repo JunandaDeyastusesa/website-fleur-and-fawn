@@ -467,6 +467,12 @@ nav {
         a:hover .main-image {
             opacity: 0;
         }
+
+        @media (max-width: 768px) {
+            .sub-title {
+                font-size: 44px;
+            }
+        }
     }
 
 }
